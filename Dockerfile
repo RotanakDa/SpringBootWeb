@@ -1,5 +1,5 @@
-# Use a lightweight base image with Java
-FROM openjdk:17-jdk-slim
+# Use a lightweight Java 21 base image
+FROM openjdk:21-jdk-slim
 
 # Set the working directory in the container
 WORKDIR /app
